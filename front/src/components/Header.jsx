@@ -18,11 +18,9 @@ export function Header() {
       addPerson(body)
       setName('')
       setAge(0)
-      setGender('')
       setProfession('')
     } else {
       alert('Selecione algum gênero')
-      setGender('')
     }
   }
 
